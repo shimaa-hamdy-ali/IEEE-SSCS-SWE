@@ -1,0 +1,3 @@
+gcc all_in_one.c -o main
+./main < numbers.txt
+./main < numbers.txt > output.txt 2> error.txt
